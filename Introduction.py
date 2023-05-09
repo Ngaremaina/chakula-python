@@ -55,7 +55,17 @@ i = [10, 5 , 8 , 9 , 85]
 # print(len(i))
 # for j in i:
 #    print(j * 2)
-j = 0
-while j < len(i):
+# j = 0
+# while j < len(i):
    
-   j = j + 1
+#    j = j + 1
+
+#classes
+class Dog:
+   global sound
+   sound = "bark"
+   def bark():
+      print(sound)
+
+Dog.bark()
+# print(Dog.sound)
